@@ -1,9 +1,13 @@
 # react-sscf
 
-#### npm install
+
+## Clone the Tutorial
+```
+git clone https://github.com/onion07/react-sscf
+cd Web_Chat
+npm install
+npm run dev
+```
 
 
-#### npm run dev
-
-
-浏览器打开 http://localhost:8080
+Now open up  http://localhost:8080
