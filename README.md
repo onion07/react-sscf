@@ -10,4 +10,4 @@ npm run dev
 ```
 
 
-Now open up  http://localhost:8080
+Now open up  [http://localhost:8080](http://localhost:8080)
