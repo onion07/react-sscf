@@ -1,5 +1,5 @@
 # react-sscf
-公众号项目的react 版本
+公众号项目的react-route-webapck 版本
 ### Clone the Tutorial
 ```
 git clone https://github.com/onion07/react-sscf.git
