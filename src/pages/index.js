@@ -9,7 +9,6 @@ export default class indexComponent extends React.Component {
 	componentDidMount() {
 
 		this.fixScroller()
-
 		//焦点图
 		if ($('.single-item').length) {
 			$('.single-item').slick();
@@ -39,7 +38,7 @@ export default class indexComponent extends React.Component {
 		return (
 			<div>
 				<div id="header">
-					<a href="#" className="logo"><img src="src/assets/img/logo.png" alt="盛世创富logo"/></a>
+					<a href="#" className="logo"><img src="src/assets/img/logo.png" alt="盛世创富logo0"/></a>
 					<Link to="experience" className="goto">免费体验&nbsp;&gt;</Link>
 				</div>
 				<div className="wrapper" id="wrapper">

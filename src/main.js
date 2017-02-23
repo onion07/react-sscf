@@ -11,15 +11,15 @@ import './js/dialog';
 import './css/main.less';
 
 // 子页面组件
-import IndexComponent from './components/index';
-import NotfindComponent from './components/notfind';
-import ConsultantComponent from './components/consultant';
-import UserComponent from './components/user';
-import OrdersComponent from './components/orders';
-import ExperienceComponent from './components/experience';
-import ProductComponent from './components/product';
-import BindphoneComponent from './components/bind_phone';
-import PayComponent from './components/pay';
+import IndexComponent from './pages/index';
+import NotfindComponent from './pages/notfind';
+import ConsultantComponent from './pages/consultant';
+import UserComponent from './pages/user';
+import OrdersComponent from './pages/orders';
+import ExperienceComponent from './pages/experience';
+import ProductComponent from './pages/product';
+import BindphoneComponent from './pages/bind_phone';
+import PayComponent from './pages/pay';
 
 
 

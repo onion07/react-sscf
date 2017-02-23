@@ -1,38 +1,44 @@
 import React from 'react';
 import { Router, Route, Link, hashHistory, IndexRoute, Redirect, IndexLink} from 'react-router';
 
+import TabsComponent from '../components/_tabs';
+import classNames from 'classnames'; // 动态类 （官网推荐）
+
 
 
 export default class productComponent extends React.Component {
 
+	 constructor(props) {
+	    super(props);
+	    
+	    this.state = {
+	    	currentIndex: 0
+	    };
+	    this.state.zj_list = ['a_test','b_test','c_test'];
+	  }
 
-	componentDidMount () {
 
-		this.getTab()
+	transIndex (index) {
+		this.setState({
+			currentIndex: index
+		});
+		// console.log('======',this.state.currentIndex,index);
+
 	}
 
+	check_ContentClass (index) {
 
-	//横向scroll
-	getTab () {
-		
-		//产品描述-切换
-		if ($('.tab').length){
-			const $tab = $('.tab'); 
-			const $content = $('.tab-content'); 
-			let index = 0;
+		const cur = index == this.state.currentIndex ? 'cur' : '';
+		return "tab-content "+cur;
+	}
 
-			$tab.click(function(event) {
-				index = $tab.index($(this));
-				$tab.removeClass('cur');
-				$(this).addClass('cur');
-				$content.removeClass('cur').eq(index).addClass('cur');
-
-			});
-		}
-		
+	componentDidMount () {
+		// 战绩回顾
+		// const zj_list = ['a_test','b_test','c_test'];
 	}
 
 	render () {
+
 
 		return (
 				<div className="wrapper production-wrapper">
@@ -76,18 +82,9 @@ export default class productComponent extends React.Component {
 								</div>
 							</section>
 							<section>
-								<div className="tab-box">
-									<div className="tab-head">
-										<ul>
-											<li className="tab tab1 cur"><span>产品介绍</span></li>
-											<li className="tab tab2"><span>战绩回顾</span></li>
-											<li className="tab tab3"><span>投顾团队</span></li>
-										</ul>
-									</div>
-									
-								</div>
+									<TabsComponent items= {['产品介绍','战绩回顾','投顾团队']} flag={this.state.currentIndex} transIndexs= { index => this.transIndex(index) }/>
 							</section>
-							<div className="tab-content cur">
+							<div className={this.check_ContentClass(0)}>
 									<div className="st">
 										<p className="tab-body-text txt1 cur">
 											    《涨股无忧》是盛世创富研究团队以事件驱动型投资策略打造的一款极具及时性、准确性、简易化的投资平台，网罗时讯经纬，直击政策风向指标，聚焦市场前沿热点，在多空转换中捕捉爆发潜力主题，甄选价值个股。以事件来驱动投资方向，第一时间捕捉市场主线题材龙头。
@@ -154,34 +151,31 @@ export default class productComponent extends React.Component {
 										</div>
 									</div>
 							</div>	
-							<div className="tab-content">
+							<div className={this.check_ContentClass(1)}>
 								<div className="inner-review st">
 									<div className="vertical-line"></div>
 									<ul>
-										<li>
-											<time>12-28</time>
-											<div className="box-stock">
-												<h5>五日涨幅 <em>6.00%</em></h5>
-												<div className="box-stock-bottom">
-													<span>股票：<i>四方精创</i></span>
-													<span>代码：<i>300468</i></span>
-												</div>
-											</div>
-										</li>
-										<li>
-											<time>12-28</time>
-											<div className="box-stock">
-												<h5>五日涨幅 <em>6.00%</em></h5>
-												<div className="box-stock-bottom">
-													<span>股票：<i>四方精创</i></span>
-													<span>代码：<i>300468</i></span>
-												</div>
-											</div>
-										</li>
+									{
+										this.state.zj_list.map( (value,index) => {
+											return (
+
+													<li key={index}>
+														<time>12-28</time>
+														<div className="box-stock">
+															<h5>五日涨幅 <em>6.00%</em></h5>
+															<div className="box-stock-bottom">
+																<span>股票：<i>四方精创</i></span>
+																<span>代码：<i>300468</i></span>
+															</div>
+														</div>
+													</li>
+											)
+										})
+									}
 									</ul>
 								</div>
 							</div>
-							<div className="tab-content">
+							<div className={this.check_ContentClass(2)}>
 								<div className="team">
 									<div className="team-header st">	
 										<div className="inner">
