@@ -28,7 +28,7 @@ export default class notfindComponent extends React.Component {
 								在浏览器中打开链接，跳转到<b>支付宝</b>
 							</div>
 							<div className="step-img">
-								<img src="src/assets/img/pay_check.png"/>
+								<img src={require('../assets/img/pay_check.png')}/>
 								<p><a href="javascript:void(0)" className="paste">粘贴链接</a></p>
 								<p><a href="javascript:void(0)" className="open-href">点击打开</a></p>
 							</div>
@@ -37,13 +37,13 @@ export default class notfindComponent extends React.Component {
 							<span className="step-num">2</span>
 							<div className="step-info">支付宝出现转账页面，点击转账，完成付款。</div>
 							<div className="pay-img">
-								<img src="src/assets/img/pay_second_account.png"/>
+								<img src={require('../assets/img/pay_second_account.png')}/>
 							</div>
 						</div>
 						<div className="wrap-box tip">
 							<span className="title">温馨提示：</span>
 							<div className="tip-info">iphone用户可以点击右上角,选择Safari
-							<img src="src/assets/img/pay_safari.png"/>或复制链接
+							<img src={require('../assets/img/pay_safari.png')}/>或复制链接
 								<a href="javascript:void(0)">http://gz.5151gp.com/wechat/order/pay/1399959</a><span className="btn-copy-href">点击复制</span>
 							</div>
 						</div>
@@ -55,7 +55,7 @@ export default class notfindComponent extends React.Component {
 								<span className="step-num">1</span>
 								<span className="step-title" >第一步：联系客服</span>
 							</div>
-							<div className="phone"><b><img src="src/assets/img/pay-second-tel.png"/></b>400-091-9988</div>
+							<div className="phone"><b><img src={require('../assets/img/pay-second-tel.png')}/></b>400-091-9988</div>
 						</div>
 						<div className="wrap-box step-two">
 							<div className="step">
@@ -64,10 +64,10 @@ export default class notfindComponent extends React.Component {
 							</div>
 							<div className="bank">
 								<ul>
-								    <li><a href="javascript:void(0)"><img src="src/assets/img/bank_1.png"/></a><b className="active"><img src="src/assets/img/pay-arrow-icon.png"/></b></li>
-								    <li><a href="javascript:void(0)"><img src="src/assets/img/bank_2.png"/></a><b><img src="src/assets/img/pay-arrow-icon.png"/></b></li>
-								    <li><a href="javascript:void(0)"><img src="src/assets/img/bank_3.png"/></a><b><img src="src/assets/img/pay-arrow-icon.png"/></b></li>
-								    <li><a href="javascript:void(0)"><img src="src/assets/img/bank_7.png"/></a><b><img src="src/assets/img/pay-arrow-icon.png"/></b></li>
+								    <li><a href="javascript:void(0)"><img src={require('../assets/img/bank_1.png')}/></a><b className="active"><img src={require('../assets/img/pay-arrow-icon.png')}/></b></li>
+								    <li><a href="javascript:void(0)"><img src={require('../assets/img/bank_2.png')}/></a><b><img src={require('../assets/img/pay-arrow-icon.png')}/></b></li>
+								    <li><a href="javascript:void(0)"><img src={require('../assets/img/bank_3.png')}/></a><b><img src={require('../assets/img/pay-arrow-icon.png')}/></b></li>
+								    <li><a href="javascript:void(0)"><img src={require('../assets/img/bank_7.png')}/></a><b><img src={require('../assets/img/pay-arrow-icon.png')}/></b></li>
 								</ul>
 								<div className="bank-info">
 									<div className="bank-mess">

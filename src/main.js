@@ -10,6 +10,7 @@ import './js/dialog';
 
 import './css/main.less';
 
+
 // 子页面组件
 import IndexComponent from './pages/index';
 import NotfindComponent from './pages/notfind';

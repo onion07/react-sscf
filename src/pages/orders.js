@@ -37,7 +37,7 @@ export default class notfindComponent extends React.Component {
 									</div>
 									<div className="details-box">
 										<div className="lf-box">
-											<a href="#"><img src="src/assets/img/order1.png" alt="订单1"/></a>
+											<a href="#"><img src={require('../assets/img/order1.png')} alt="订单1"/></a>
 										</div>
 										<div className="rg-box">
 											<h5>涨股无忧</h5>
@@ -60,7 +60,7 @@ export default class notfindComponent extends React.Component {
 									</div>
 									<div className="details-box">
 										<div className="lf-box">
-											<a href="#"><img src="src/assets/img/order1.png" alt="订单1"/></a>
+											<a href="#"><img src={require('../assets/img/order1.png')} alt="订单1"/></a>
 										</div>
 										<div className="rg-box">
 											<h5>涨股无忧</h5>
@@ -83,7 +83,7 @@ export default class notfindComponent extends React.Component {
 									</div>
 									<div className="details-box">
 										<div className="lf-box">
-											<a href="#"><img src="src/assets/img/order1.png" alt="订单1"/></a>
+											<a href="#"><img src={require('../assets/img/order1.png')} alt="订单1"/></a>
 										</div>
 										<div className="rg-box">
 											<h5>涨股无忧</h5>
@@ -106,7 +106,7 @@ export default class notfindComponent extends React.Component {
 									</div>
 									<div className="details-box">
 										<div className="lf-box">
-											<a href="#"><img src="src/assets/img/order1.png" alt="订单1"/></a>
+											<a href="#"><img src={require('../assets/img/order1.png')} alt="订单1"/></a>
 										</div>
 										<div className="rg-box">
 											<h5>涨股无忧</h5>
@@ -129,7 +129,7 @@ export default class notfindComponent extends React.Component {
 									</div>
 									<div className="details-box">
 										<div className="lf-box">
-											<a href="#"><img src="src/assets/img/order1.png" alt="订单1"/></a>
+											<a href="#"><img src={require('../assets/img/order1.png')} alt="订单1"/></a>
 										</div>
 										<div className="rg-box">
 											<h5>涨股无忧</h5>

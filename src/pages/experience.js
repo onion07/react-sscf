@@ -32,13 +32,13 @@ export default class experienceComponent extends React.Component {
 		return (
 				<div className="wrapper exper-wrapper">
 					<header className="exper-header">
-						<img src="src/assets/img/ty_baner.png" alt="盛世创富免费体验baner图"/>
+						<img src={require('../assets/img/ty_baner.png')} alt="盛世创富免费体验baner图"/>
 					</header>
 					<main className="exper-main">
 						<section>
 							<div className="top-box">
 								<div className="top-lf">
-									<a href="javascript:void(0);"><img src="src/assets/img/mfty.png" alt/></a>
+									<a href="javascript:void(0);"><img src={require('../assets/img/mfty.png')} alt/></a>
 								</div>
 								<div className="top-rg">
 									<h4>涨股无忧<span>短线机会</span></h4>
@@ -53,75 +53,27 @@ export default class experienceComponent extends React.Component {
 								<div className="scroller">
 									<ul>
 										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
+											<img src={require('../assets/img/md.png')} alt="盛世创富产品卖点"/>
 											<p>产品卖点</p>
 										</li>
 										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
+											<img src={require('../assets/img/md.png')} alt="盛世创富产品卖点"/>
 											<p>产品卖点</p>
 										</li>
 										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
+											<img src={require('../assets/img/md.png')} alt="盛世创富产品卖点"/>
 											<p>产品卖点</p>
 										</li>
 										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
+											<img src={require('../assets/img/md.png')} alt="盛世创富产品卖点"/>
 											<p>产品卖点</p>
 										</li>
 										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
+											<img src={require('../assets/img/md.png')} alt="盛世创富产品卖点"/>
 											<p>产品卖点</p>
 										</li>
 										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
-											<p>产品卖点</p>
-										</li>
-									</ul>
-								</div>
-							</div>
-							<div className="bottom-box">
-								<a href="javascript:void(0);">免费体验</a>
-							</div>
-						</section>
-						<section>
-							<div className="top-box">
-								<div className="top-lf">
-									<a href="javascript:void(0);"><img src="src/assets/img/mfty.png" alt/></a>
-								</div>
-								<div className="top-rg">
-									<h4>涨股无忧<span>短线机会</span></h4>
-									<p>尊重市场，依势而为</p>
-								</div>
-								<div className="flow-right">
-									<div className="join-box">已有<em>118548</em>人参与</div>
-									<div className="state-box ending">结束</div>
-								</div>
-							</div>
-							<div className="list-box">
-								<div className="scroller">
-									<ul>
-										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
-											<p>产品卖点</p>
-										</li>
-										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
-											<p>产品卖点</p>
-										</li>
-										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
-											<p>产品卖点</p>
-										</li>
-										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
-											<p>产品卖点</p>
-										</li>
-										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
-											<p>产品卖点</p>
-										</li>
-										<li>
-											<img src="src/assets/img/md.png" alt="盛世创富产品卖点"/>
+											<img src={require('../assets/img/md.png')} alt="盛世创富产品卖点"/>
 											<p>产品卖点</p>
 										</li>
 									</ul>

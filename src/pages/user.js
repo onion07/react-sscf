@@ -21,7 +21,7 @@ export default class userComponent extends React.Component {
 					<header className="user-header">
 						<div className="inner">
 							<div className="in">
-								<a href="#"><img src="src/assets/img/user_center.png"/></a>
+								<a href="#"><img src={require('../assets/img/user_center.png')}/></a>
 							</div>
 							<div className="in">
 								<i>用户ID</i>
@@ -86,7 +86,7 @@ export default class userComponent extends React.Component {
 						</div>
 						<div className="img-wrap">
 							<div>
-								<img src="src/assets/img/ng_start.png" alt="盛世创富"/>
+								<img src={require('../assets/img/ng_start.png')} alt="盛世创富"/>
 							</div>
 							<p>监督电话：400-091-9988</p>
 						</div>

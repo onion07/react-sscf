@@ -43,7 +43,7 @@ export default class productComponent extends React.Component {
 		return (
 				<div className="wrapper production-wrapper">
 						<header className="production-header">
-							<img src="src/assets/img/cp_baner.png" alt="产品描述baner图"/>
+							<img src={require('../assets/img/cp_baner.png')} alt="产品描述baner图"/>
 							<div className="little-bar">
 								<marquee behavior="scroll"  direction="left" scrollamount="2.5" scrolldelay="150"><i>19730</i>位投资者已购买</marquee>
 								<marquee behavior="scroll"  direction="left" scrollamount="2.5" scrolldelay="150"><i>19730</i>位投资者已购买</marquee>
@@ -93,7 +93,7 @@ export default class productComponent extends React.Component {
 									<div className="st">
 										<h3 className="sen-title title1">产品标的达标成功计算方式</h3>
 										<div className="sen-wrap">
-											<img src="src/assets/img/ms_test.png" alt="产品标的达标成功计算方式"/>
+											<img src={require('../assets/img/ms_test.png')} alt="产品标的达标成功计算方式"/>
 										</div>
 										<div className="secn-dep">
 											<p className="first-p">若5日最大涨幅超过<em>5%</em>则为成功达标</p>
@@ -103,7 +103,7 @@ export default class productComponent extends React.Component {
 									<div className="st">
 										<h3 className="sen-title title2">成功案例回顾&nbsp;—&nbsp;禾盛新材&nbsp;&nbsp;002290</h3>
 										<div className="sen-wrap">
-											<img src="src/assets/img/ms_test.png" alt="成功案例回顾——禾盛新材002290"/>
+											<img src={require('../assets/img/ms_test.png')} alt="成功案例回顾——禾盛新材002290"/>
 										</div>
 										<div className="secn-dep">
 											<ul>
@@ -117,7 +117,7 @@ export default class productComponent extends React.Component {
 									<div className="st">
 										<h3 className="sen-title title2">成功案例回顾&nbsp;—&nbsp;信达地产&nbsp;600657</h3>
 										<div className="sen-wrap">
-											<img src="src/assets/img/ms_test.png" alt="成功案例回顾——禾盛新材002290"/>
+											<img src={require('../assets/img/ms_test.png')} alt="成功案例回顾——禾盛新材002290"/>
 										</div>
 										<div className="secn-dep">
 											<ul>
@@ -137,7 +137,7 @@ export default class productComponent extends React.Component {
 									<div className="st">
 										<h3 className="sen-title title5">获取方式</h3>
 										<div className="sen-wrap">
-											<img src="src/assets/img/ms_test2.png" alt="获取方式"/>
+											<img src={require('../assets/img/ms_test2.png')} alt="获取方式"/>
 										</div>
 										<div className="secn-dep sp5">
 											<em>1.微信订阅&nbsp;2.个人中心&nbsp;3.我的订阅&nbsp;4.涨股无忧</em>
@@ -180,7 +180,7 @@ export default class productComponent extends React.Component {
 									<div className="team-header st">	
 										<div className="inner">
 											<div className="in">
-												<a href="#"><img src="src/assets/img/team_pic.png"/></a>
+												<a href="#"><img src={require('../assets/img/team_pic.png')}/></a>
 											</div>
 											<div className="in">
 												<i>易老师</i>
@@ -201,7 +201,7 @@ export default class productComponent extends React.Component {
 									<div className="team-header st">	
 										<div className="inner">
 											<div className="in">
-												<a href="#"><img src="src/assets/img/team_pic.png"/></a>
+												<a href="#"><img src={require('../assets/img/team_pic.png')}/></a>
 											</div>
 											<div className="in">
 												<i>易老师</i>
