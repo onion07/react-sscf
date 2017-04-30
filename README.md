@@ -1,5 +1,5 @@
 # react-sscf
-公众号项目的 ES2015-react-route-webapck 版本
+公众号项目对应的h5的迁移到 ES6-react-route-webapck
 ### Clone the Tutorial
 ```
 git clone https://github.com/onion07/react-sscf.git
