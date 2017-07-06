@@ -5,8 +5,9 @@
 git clone https://github.com/onion07/react-sscf.git
 cd react-sscf
 npm install
+npm run build
 npm run dev
 ```
 
 
-Now open up  [http://localhost:8080](http://localhost:8080)
+Now open up  [http://localhost:9898/build/_index.html](http://localhost:9898/build/_index.html)
