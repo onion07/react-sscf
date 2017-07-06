@@ -42,7 +42,7 @@ module.exports = {
       allChunks: true
     }),
     new HtmlWebpackPlugin({
-        template: './build.html',
+        template: './_index.html',
         filename: '_index.html',
         hash: true
     })

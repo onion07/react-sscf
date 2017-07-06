@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": " webpack-dev-server --inline --progress --colors --content-base .",
+    "dev": " webpack-dev-server --inline --progress --colors --open --port=9898 --content-base .",
     "build": "webpack --config webpack.config.build.js --progress",
     "watch": "webpack -w"
   },
@@ -24,8 +24,9 @@
     "babel-preset-react": "^6.5.0",
     "css-loader": "^0.28.0",
     "expose-loader": "^0.7.1",
-    "extract-text-webpack-plugin": "^1.x",
+    "extract-text-webpack-plugin": "^1.0.1",
     "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.29.0",
     "http-server": "^0.8.5",
     "jquery": "^3.1.1",
     "less": "^2.7.2",

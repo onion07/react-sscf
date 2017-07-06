@@ -1,4 +1,5 @@
 # Build folder and log file
 node_modules/
+build/
 *.map
 *.html
